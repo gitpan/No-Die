@@ -7,7 +7,7 @@ use Locale::Maketext::Simple    Style => 'gettext';
 use strict;
 use vars qw[$DIE $VERSION];
 
-$VERSION = 0.01;
+$VERSION = 0.02;
 
 BEGIN { *CORE::GLOBAL::die = sub { goto &_nodie } }
 
